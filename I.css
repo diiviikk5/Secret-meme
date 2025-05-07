@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* File input */
+input[type="file"] {
+    padding: 10px;
+    border: 2px dashed #3498db;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Canvas styling */
+canvas {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+
+/* Encode Button */
+#encode {
+    background-color: #2ecc71;
+    color: white;
+}
+
+#encode:hover {
+    background-color: #27ae60;
+}
+
+/* Decode Button */
+#decode {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#decode:hover {
+    background-color: #c0392b;
+}
+
+/* Decoded image */
+#decodedImage {
+    margin-top: 15px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+}
